@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>SWalters - Digital Agency Contact Us </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="team.html">Our Team</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+        <h1>Contact</h1>
+
+        <div class="container">
+        <form id="form">
+
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" placeholder="Name:" name="name"
+                    required minlength="3" maxlength="100">
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" placeholder="Email:" name="email"
+                required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Email invalid. Format should be email123@email.com">
+            <br>
+
+            <label for="phone">Phone Number</label>
+            <br>
+            <input type="phone" id="phone" placeholder="Phone Number:" name="phone"
+                    required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    title="555-555-5555">
+                    
+            <br>
+
+            <label for="text">Comment</label>
+            <br>
+            <textarea id="comment" name="comment" placeholder="Comment:"
+                    required minlength="3" maxlength="200"></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <div class="msg-container">
+                <div id="new">
+                    <!-- Leave A Message! -->
+                </div>
+            </div>
+            <br>
+            <br>
+
+        </form>
+        </div>
+
+        <footer>
+            <address>
+                567 Digital Drivey<br>
+                Digital Land, USA 23456<br>
+                Phone: 012.345.6789<br>
+                <br>
+            </address>
+            <span>&copy;SWalters2020</span>
+        </footer>
+        
+ <!-- Script -->
+ <script src="script.js"></script>
+ 
+    </body>
+    </html>

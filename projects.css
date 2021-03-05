@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #7c73de;
+  background: url("images/bg_pages.png") no-repeat center,
+    linear-gradient(to right, #ff00aa, #7c73de);
+  background-blend-mode: overlay;
+  margin-top: 5px;
+  position: absolute;
+}
+
+ul li {
+  display: flex;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 700;
+  color:lavender;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+h3 {
+  text-align: center;
+}
+
+.secheader {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+img {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+}
+
+.img1 {
+  mix-blend-mode: difference;
+  width: 30em;
+}
+
+.p1 {
+  color: white;
+  width: 40%;
+  font-size: 30px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+}
+
+.img2 {
+  width: 25em;
+}
+
+.p2 {
+  color: white;
+  width: 40%;
+  font-size: 30px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+}
+
+.img3 {
+  width: 40em;
+}
+
+.p3 {
+  color: white;
+  width: 40%;
+  font-size: 30px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+}
+
+.img4 {
+  width: 20%;
+}
+
+.p4 {
+  color: white;
+  width: 40%;
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+  html {
+    background-size: contain;
+    background-position: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  ul li {
+    font-size: 20px;
+    display: block;
+  }
+  .container,
+  .container2,
+  .container3,
+  .container4 {
+    display: block;
+    text-align: center;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 60%;
+  }
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    width: 100%;
+    display: block;
+    font-size: 25px;
+  }
+  footer {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1500px) {
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 80%;
+    height: -webkit-fill-available;
+  }
+}
