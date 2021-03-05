@@ -150,3 +150,13 @@ a:hover {
     margin: 0;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .icon,
+.icon5 {
+  margin-right: 50px;
+  mix-blend-mode: initial;
+  display: initial;
+  margin-top:60px;
+  }
+}
