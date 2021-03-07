@@ -121,6 +121,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding:20px;
   }
   span {
     display: contents;
@@ -138,5 +139,12 @@ footer {
     margin: auto;
     height: 50%;
     width: 70%;
+  }
+  .img2 {
+    margin-left:200px;
+  }
+  .img1,
+  .img3 {
+    margin-right:200px;
   }
 }
