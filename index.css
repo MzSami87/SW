@@ -179,6 +179,7 @@ html {
 @media screen and (min-width: 768px) {
 footer {
     display: -webkit-inline-box;
+    display: inline-box;
     text-align: center;
     margin: auto;
     margin-top: 200px;
