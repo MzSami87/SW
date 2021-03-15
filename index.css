@@ -182,15 +182,11 @@ footer {
     display: inline-box;
     text-align: center;
     margin: auto;
-    margin-top: 200px;
 }
 .icon, .icon5 {
     display: block;
     mix-blend-mode: initial;
-}
-
-.icon, .icon5 {
     margin-right: 40px;
-    mix-blend-mode: initial;
-  }
-} 
+    margin-top: 200px;
+  }  
+}
