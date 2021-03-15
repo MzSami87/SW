@@ -52,7 +52,7 @@ h2 {
 }
 
 footer {
-  margin-top: 590px;
+  margin-top: 300px;
   text-align: center;
 }
 
@@ -161,7 +161,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 html {
     background-size: contain;
     background-position: center;
@@ -170,7 +170,26 @@ html {
 .icon5 {
   margin-right: 50px;
   mix-blend-mode: initial;
-  display: initial;
+  display: initial; */
   /* margin-top:60px; */
-  }
+  /* }
+} */
+
+/* Changes made 3/13/21 */
+@media screen and (max-width: 768px) {
+footer {
+    display: -webkit-inline-box;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
 }
+.icon, .icon5 {
+    display: block;
+    mix-blend-mode: initial;
+}
+
+.icon, .icon5 {
+    margin-right: 40px;
+    mix-blend-mode: initial;
+  }
+} 
